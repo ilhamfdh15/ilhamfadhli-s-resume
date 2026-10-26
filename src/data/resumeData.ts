@@ -52,7 +52,7 @@ export const PERSONAL_INFO = {
   email: 'ilhamfadhly15@gmail.com',
   linkedin: 'https://linkedin.com/in/ilhamfadhli',
   linkedinDisplay: 'linkedin.com/in/ilhamfadhli',
-  pdfPath: '/assets/aistudio/Ilham_Fadhli_CV_c30487d3.pdf',
+  pdfPath: `${import.meta.env.BASE_URL}assets/aistudio/Ilham_Fadhli_CV_c30487d3.pdf`,
   summary:
     'Detail-oriented Quality Assurance Engineer and SDET with over 10 years of experience driving software reliability across e-commerce, POS systems, enterprise APIs, and mobile platforms. Proven track record of transitioning manual testing environments into robust automated pipelines to accelerate deployment cycles. Expertise in building test frameworks using Python and Selenium, alongside establishing CI/CD integrations. Adept at aligning technical quality with business goals, earning multiple performance awards for exceptional problem-solving and cross-functional collaboration.',
 };
